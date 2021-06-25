@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<view class="container">
+
+<view class="calender">
+  <text class="cal-content">Day 1</text>
+</view>
+
+<view class="card">
+  <image class="card-image" src="{{cardImageUrl}}"></image>
+  <text class="card-content">{{cardContentMsg}}</text>
+  <text class="card-auth">{{cardContentAuth}}</text>
+</view>
+
+
+<view class="toolbar">
+  <image
+    class="toolbar-album"
+    bindtap="goToAlbum"
+    src="{{toolbarAlbumUrl}}"
+  ></image>
+  <image
+    class="toolbar-like"
+    bindtap="tapLike"
+    src="{{toolbarLikeUrl}}"
+  ></image>
+  <image
+    class="toolbar-share"
+    bindtap="tapShare"
+    src="{{toolbarShareUrl}}"
+  ></image>
+</view>
+
+</view>
